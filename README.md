@@ -40,9 +40,11 @@ Constructing 3D meshes by manually defining vertices is tedious and rarely done 
 
 5. **Challenge**. This exercise is a great preparation for assignment 1. Write a script to procedurally generate a closed cone. Use public class attributes to allow parameters of the cone to be set from the editor, such as the radius. Hint: You can think of a cone as a generalisation of the pyramid you manually defined in this lab. The vertices of the base will form a circle rather than a square, and there’ll be one vertex for the tip. Maths functions like `sin()` and `cos()` should help.
 
-<p align="center">
+<p align="middle">
   <img src="Gifs/5-Challenge.gif">
+  <img src="Gifs/Sinus_en_cosinus.png">
 </p>
+
 
 An alternative to defining meshes programmatically is to use a 3D modelling tool to construct them using a graphical user interface (a free, open-source tool you might wish to try is called Blender). Models can be saved as various file formats, many of which can be read by the Unity engine. A model can be imported to a Unity project simply by placing it in the “Assets” folder. Note that a “model” is typically more than just a “mesh” (although it doesn’t have to be). This is because meshes alone cannot capture the complexity of some objects.
 
