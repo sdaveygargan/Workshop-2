@@ -6,7 +6,7 @@
 
 # Introduction:
 
-In this lab you will be introduced to Unity, a powerful games and simulation engine which facilitates the construction of rich interactive scenes.
+In this lab you will learn about polygonal geometry, and how 3D *meshes* can be constructed out of simple primitives. To begin, clone this repository and open it in Unity. 
 You will need to work with three files to start off with:
 * **MainScene.unity** - A Unity scene containing a partially formed cube entity. You will be working with this scene.
 * **CubeScript.cs** - The C# script which constructs and renders the cube geometry, attached to the cube entity.
