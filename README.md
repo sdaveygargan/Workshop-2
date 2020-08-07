@@ -15,8 +15,8 @@ You will need to work with three files to start off with:
 # Task:
 
 1. Open `MainScene.unity` in Unity. Press the ‘Play’ button and you should see a partially rendered cube. Switch to the ‘Scene’ tab so you can navigate the view using the mouse: The middle button/scroll wheel allows you to drag/zoom the view and dragging with the right mouse button allows you to rotate the view.
-  - Navigate the view to look at the cube from different angles. It may help to right-click the ‘scene gizmo’ located in the top-right of the viewport in order to select different angles to view the cube from. Which two faces are missing?
-  - Open `VertexColorShader.shader` and remove the line `Cull Off` and save the file. Make sure you keep this code removed for the remainder of the lab. Examine the cube again in the Unity editor. What did `Cull Off` do?
+  * Navigate the view to look at the cube from different angles. It may help to right-click the ‘scene gizmo’ located in the top-right of the viewport in order to select different angles to view the cube from. Which two faces are missing?
+  * Open `VertexColorShader.shader` and remove the line `Cull Off` and save the file. Make sure you keep this code removed for the remainder of the lab. Examine the cube again in the Unity editor. What did `Cull Off` do?
   
 2. Add vertex definitions to `CubeScript.cs` to complete the cube (add the missing faces). Culling is now on, so make sure you use the correct vertex winding order such that the triangles you define are visible from the outside of the cube.
 
