@@ -38,7 +38,7 @@ You will need to work with three files to start off with:
 
 Constructing 3D meshes by manually defining vertices is tedious and rarely done in practice. However, the ability to define vertices in code is useful if we wish to procedurally generate a mesh based on some sort of algorithm.
 
-5. **Challenge**. This exercise is a great preparation for assignment 1. Write a script to procedurally generate a closed cone. Use public class attributes to allow parameters of the cone to be set from the editor, such as the radius. Hint: You can think of a cone as a generalisation of the pyramid you manually defined in this lab. The vertices of the base will form a circle rather than a square, and there’ll be one vertex for the tip. Maths functions like `sin()` and `cos()` should help.
+5. **Challenge**. Write a script to procedurally generate a closed cone. Use public class attributes to allow parameters of the cone to be set from the editor, such as the radius. Hint: You can think of a cone as a generalisation of the pyramid you manually defined in this lab. The vertices of the base will form a circle rather than a square, and there’ll be one vertex for the tip. Maths functions like `sin()` and `cos()` should help.
 
 <p align="middle">
   <img src="Gifs/5-Challenge.gif">
